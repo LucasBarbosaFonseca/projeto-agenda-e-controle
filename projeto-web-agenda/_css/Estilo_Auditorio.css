@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #2e99cf;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+}
+
+h1.titulo-form {
+	display: block;
+	font-size: 1.8em;
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 168);
+	width: 100%;
+	margin-top: -0%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	box-shadow: 2px 0 4px rgb(0, 0, 0);
+}
+
+
+
+div.form-reserva-auditorio {
+	display: block;
+	width: 300px;
+	height: 340px;
+	background-color: #fff;
+	margin: 6% auto 0 auto;
+	padding-top: 2%;
+	padding-left: 4.4%;
+	box-shadow: 2px 2px 3px;
+}
+
+label {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #999;
+}
+
+
+
+input {
+	margin-bottom: 0.4em;
+	width: 250px;
+	height: 33.5px;
+	border: none;
+	box-shadow: 1px 1px 3px black; 
+	font-size: 20px;
+}
+
+input:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+input {
+	transition: all 1s;
+}
+
+
+
+input[type="submit"] {
+	width: 250px;
+	height: 40px;
+	color: #fff;
+	background-color: rgb(0, 0, 168);
+	font-size: 20px;
+}
+
+input[type="submit"]:action {
+	box-shadow: none;
+}
+
+input[type="submit"]:hover {
+	background-color: #00aced;
+}
+
+input[type="submit"] {
+	transition: all 1s; 
+}
+
+
+
+select {
+	margin-bottom: 0.4em;
+	width: 250px;
+	height: 33.5px;
+	border: none;
+	box-shadow: 1px 1px 3px black;
+	font-size: 20px;
+}
+
+select:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+select {
+	transition: all 1s;
+}
+
+
+
+/* Formatação Tabela */
+div.data-grid-auditorio {
+	display: block;
+	width: 900px;
+	height: 360px;
+	margin: 4% auto 0 auto;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 3px #000;
+	overflow-y: scroll;
+}
+
+table.datagrid {
+	width: 900px;
+}
+
+table.datagrid th {
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(3, 165, 252);
+}
+
+table.datagrid tr {
+	height: 25px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	font-weight: 700;
+}
+
+table.datagrid tr:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+table.datagrid a {
+	font-weight: 600;
+}
+
+
+
+/* Formatação do quadro de pesquisa */
+div.quadro-pesq-reserva-auditorio {
+	display: block;
+	width: 78.3%;
+	margin: 2% auto 0 auto;
+}
+
+fieldset {
+	display: block;
+	border: 2px dotted #000;
+}
+
+legend {
+	color: #000;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+input[type="search"] {
+	box-shadow: 1px 1px 3px black;
+	height: 25px;
+	border: none;
+	margin-left: 37%;
+	margin-bottom: 1.5%;
+	font-size: 17px;
+}
+
+input[type="search"]:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+input[type="search"] {
+	transition: all 1s linear;
+}
+
+
+
+
+/* Formatação placeholder */
+
+input:-ms-input-placeholder  {
+        font-size:20px;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size:20px;
+      }
+
+      input:-moz-placeholder {
+        font-size:20px;
+      }
+
+ 	  /* firefox 19+ */
+      input::-moz-placeholder {
+        font-size:20px;
+      }
+
+
+/* Formatação cursor dos campos */
+
+      input:focus:-ms-input-placeholder  {
+              font-size:20px;
+            }
+
+            input:focus::-webkit-input-placeholder {
+              font-size:20px;
+            }
+
+            input:focus:-moz-placeholder {
+              font-size:20px;
+            }
+
+            input:focus::-moz-placeholder {   
+              font-size:20px;
+            }
+
+
+
+
+
+/* Formatação cursor dos campos input do tipo search */
+input[type="search"]:focus:-ms-input-placeholder {
+    font-size: 17px;
+}
+
+input[type="search"]:focus::-webkit-input-placeholder {
+    font-size: 17px;
+}
+
+input[type="search"]:focus:-moz-placeholder {
+    font-size: 17px;
+}
+
+input[type="search"]:focus::-moz-placeholder {   
+    font-size: 17px;
+}
