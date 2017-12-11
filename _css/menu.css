@@ -1,0 +1,252 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+* {margin: 0; padding: 0;}
+
+body {
+	background-color: #2e99cf;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+}
+
+
+
+
+
+/* Formatação do Menu */
+/*Configurações Padrões*/
+ul.menu, .menu li, .menu a {
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+	text-decoration: none;
+	z-index: 2;
+}
+
+.menu {
+	border-bottom: 1px solid black;
+	box-shadow: 2px 0 4px rgb(0, 0, 0);
+}
+
+ul.menu ul { 
+	position: absolute; 
+	display: none; 
+	box-shadow:3px 3px 2px #333;
+}
+
+/* Configurações nivel 1*/
+ul.menu { 
+	float:left; 
+	font-size:23px; 
+/*	border-radius:5px; */
+	padding:0 5px;
+
+    position: absolute;
+	width: 100%;
+	top: -0%;
+	font-weight: 600;
+}
+
+.menu li { 
+	float:left; 
+	width:auto; 
+	position:relative;
+}
+
+.menu li a { 
+	display:block; 
+	padding:0 20px; 
+	line-height:45px; 
+	height:45px; 
+	float:left; 
+	transition:all 0.1s linear; 
+}
+
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-1 { 
+	display:block; 
+	top:45px; 
+	left:0; 
+	padding:5px; 
+	width:380px; 
+	border-radius:0 0 5px 5px;   
+}
+
+.menu ul.submenu-1 a {  
+	width:339px; 
+	padding:0 20px; 
+	border-radius:5px;  
+}
+
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-2 { 
+	display:block; 
+	top:0; 
+	left: 365px; 
+	padding:5px; 
+	width:200px;  
+	border-radius: 0 5px 5px 5px; 
+}
+
+.menu ul.submenu-2 a {  
+	width:160px; 
+	padding:0 20px; 
+	border-radius:5px; 
+}
+
+
+
+
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-1-controle-usu-tablet { 
+	display:block; 
+	top:45px; 
+	left:0; 
+	padding:5px; 
+	width:117px; 
+	border-radius:0 0 5px 5px;   
+}
+
+.menu ul.submenu-1-controle-usu-tablet a {  
+	width:77px; 
+	padding:0 20px; 
+	border-radius:5px;  
+}
+
+
+
+
+/*Configurações de cores*/
+ /*nivel 1*/
+.menu {
+/*	background:#CCC; */
+	background-color: rgb(0, 0, 168); 
+}
+
+.menu a { 
+/*	color:#000; */
+	color: #fff;
+}
+
+.menu li:hover > a { 
+	background:#999;  
+	color:#fff;
+}
+
+/*nivel 2*/
+.submenu-1 {
+	background:#999; 
+}
+
+.submenu-1 a {
+	color:#fff;
+}
+
+.submenu-1 li:hover > a { 
+	background:#666; 
+}
+
+/*nivel 3*/
+.submenu-2 { 
+	background:#666;
+}
+
+.submenu-2 a {
+	color:#fff;
+}
+
+.submenu-2 li:hover > a { 
+	background:#333; 
+}
+
+
+
+.submenu-1-controle-usu-tablet {
+	background: #999;
+}
+
+.submenu-1-controle-usu-tablet a {
+	color: #fff;
+}
+
+.submenu-1-controle-usu-tablet li:hover > a {
+	background: #333;
+}
+
+
+/*
+.menu {
+	list-style: none;
+	float: left;
+	background-color: rgb(0, 0, 168);
+	width: 100%;
+	position: relative;
+	top: -16px;
+	border-bottom: 1px solid black;
+}
+
+.menu li {
+	position: relative;
+	float: left;
+	left: 430px;
+}
+
+.menu li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 5px 10px;
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.menu li a:hover {
+	background-color: #0cc2f7;
+}
+*/
+/* Submenu */
+/*
+.menu li ul {
+	position: absolute;
+	top: 45px;
+	margin-left: -430px;
+	display: none;
+	text-align: center;
+}
+
+.menu li:hover ul, .menu li.over ul {
+	display: block;
+}
+
+.menu li ul li {
+	display: block;
+	width: 150px;
+	background-color: rgb(0, 0, 168);
+	border: 1px solid black;
+}
+*/
+
+h1.titulo-sistema {
+	display: block;
+	text-align: center;
+	margin-top: 18%;
+	color: rgb(255, 255, 255);
+	font-size: 2.1875em;
+}
+
+img {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+
+footer {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	bottom: 0px;
+	font-size: 1.25em;
+	font-weight: 600;
+}

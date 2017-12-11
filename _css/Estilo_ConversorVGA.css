@@ -1,0 +1,256 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #2e99cf;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+}
+
+h1.titulo-form {
+	display: block;
+	background-color: rgb(0, 0, 168);
+	font-size: 1.8em;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+	box-shadow: 2px 0 4px rgb(0, 0, 0);
+	margin-top: -0%;  
+}
+
+div.form-reserva-conversor {
+	display: block;
+	background-color: rgb(255, 255, 255);
+	width: 30%;
+	height: 425px;
+	padding-top: 2%;
+	padding-left: 4.4%;
+	box-shadow: 2px 2px 3px black;
+	margin: 4% auto 0 auto;
+}
+
+a.ancora-voltar {
+	float: left;
+	font-size: 1.5625em;
+	font-weight: 700;
+	margin-left: 0.7320644216691069%; 
+}
+
+a.ancora-voltar:hover {
+	color: #fff;
+}
+
+label {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #999;
+}
+
+
+
+input[type="text"] {
+	width: 84.9%;
+	height: 33.5px;
+	box-shadow: 1px 1px 3px black;
+	border: none;
+	margin-bottom: 0.4em;
+	font-size: 1.25em;
+}
+
+input[type="text"]:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+input[type="text"] {
+	transition: all 1s;
+}
+
+
+
+
+select {
+	width: 85.0%;
+	height: 35.5px;
+	box-shadow: 1px 1px 3px black;
+	border: none;
+	margin-bottom: 0.4em;
+	font-size: 1.25em;
+}
+
+select:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+select {
+	transition: all 1s;
+}
+
+
+input[type="submit"] {
+	width: 85%;
+	height: 40px;
+	color: #fff;
+	background-color: rgb(0, 0, 168);
+	font-size: 1.25em;
+	box-shadow: 1px 1px 3px black;
+	border: none;
+}
+
+input[type="submit"]:action {
+	box-shadow: none;
+}
+
+input[type="submit"]:hover {
+	background-color: #00aced;
+}
+
+input[type="submit"] {
+	transition: all 1s;
+}
+
+
+
+/* Formatação Tabela */
+
+div.data-grid-conversor {
+	display: block;
+	width: 95%;
+	height: 360px;
+	border: 1px solid #000;
+	box-shadow: 1px 1px 3px #000;
+	overflow-y: scroll;
+	margin: 4% auto 0 auto;
+}
+
+table.datagrid {
+	width: 100%;
+}
+
+table.datagrid th {
+	font-size: 1.25em;
+	padding: 5px;
+	text-align: center;
+	background-color: rgb(3, 165, 252 );
+}
+
+table.datagrid tr {
+	height: 25px;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+	font-weight: 700;
+}
+
+table.datagrid tr:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+table.datagrid a {
+	font-weight: 600;
+}
+
+
+
+/* Formatação do quadro de pesquisa */
+div.quadro-pesq-reserva-conversor {
+	display: block;
+	width: 95%;
+	margin: 2% auto 0 auto;
+}
+
+fieldset {
+	display: block;
+	border: 2px dotted #000;
+}
+
+legend {
+	color: #000;
+	font-weight: 600;
+	font-size: 1.4375em;
+}
+
+input[type="search"] {
+	box-shadow: 1px 1px 3px black;
+	height: 25px;
+	width: 8%;
+	border: none;
+	margin-left: 46%;
+	margin-bottom: 1.5%;
+	font-size: 1.0625em;
+}
+
+input[type="search"]:hover {
+	background-color: rgb(215, 215, 215);
+}
+
+input[type="search"] {
+	transition: all 1s linear;
+}
+
+
+
+/* Formatação placeholder */
+
+input:-ms-input-placeholder  {
+        font-size:1.25em;
+      }
+
+      input::-webkit-input-placeholder {
+        font-size:1.25em;
+      }
+
+      input:-moz-placeholder {
+        font-size:1.25em;
+      }
+
+ 	  /* firefox 19+ */
+      input::-moz-placeholder {
+        font-size:1.25em;
+      }
+
+
+/* Formatação cursor dos campos */
+
+      input:focus:-ms-input-placeholder  {
+              font-size:1.25;
+            }
+
+            input:focus::-webkit-input-placeholder {
+              font-size:1.25em;
+            }
+
+            input:focus:-moz-placeholder {
+              font-size:1.25em;
+            }
+
+            input:focus::-moz-placeholder {   
+              font-size:1.25em;
+            }
+
+
+/* Formatação cursor dos campos input do tipo search */
+			input[type="search"]:focus:-ms-input-placeholder {
+			    font-size: 1.0625em;
+			}
+
+			input[type="search"]:focus::-webkit-input-placeholder {
+			    font-size: 1.0625em;
+			}
+
+			input[type="search"]:focus:-moz-placeholder {
+			    font-size: 1.0625em;
+			}
+
+			input[type="search"]:focus::-moz-placeholder {   
+			    font-size: 1.0625em;
+			}
+
+
+
